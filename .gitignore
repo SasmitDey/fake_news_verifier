@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+#environment variables
+.env
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Large data and models
+dataset/
+word2vec_format/
+
+# Local python version
+.python-version
