@@ -11,13 +11,13 @@ dependencies = [
     "ipywidgets>=8.1.8",
     "jupyterlab>=4.5.7",
     "kagglehub[pandas-datasets,polars-datasets]>=1.0.1",
-    "numpy>=2.1.0",
+    "numpy<2.0.0",
     "pandas>=2.2.0",
     "polars>=1.40.1",
     "python-dotenv>=1.2.2",
     "sentence-transformers>=5.4.1",
     "sparqlwrapper>=2.0.0",
-    "torch",
+    "torch>=2.4.0",
     "cuml-cu12==26.4.*",
 ]
 
